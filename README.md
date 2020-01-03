@@ -1,5 +1,7 @@
 # Commitlint & Commitizen
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 ## Commands
   yarn init -Y
 
@@ -21,7 +23,7 @@
 
   yarn commitizen init cz-conventional-changelog --yarn --dev --exact
 
-    ### include at package.json
+   ### include at package.json
   
       "scripts": {
         "commit": "git-cz"
