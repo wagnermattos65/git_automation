@@ -1,0 +1,17 @@
+{
+  "name": "lintcommit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wagner Mattos <github@wagnermattos.com> (https://wagnermattos.com/)",
+  "license": "MIT",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }  
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.3",
+    "@commitlint/config-conventional": "^8.3.3",
+    "husky": "^3.1.0"
+  }
+}
